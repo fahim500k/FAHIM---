@@ -32,7 +32,7 @@ module.exports.handleEvent = async function ({ api, event }) {
       shaon.startsWith("https://fb.watch")
   ) {
     try {
-      api.sendMessage("🔰 downloading Video please wait...", event.threadID, event.messageID);
+      api.sendMessage("🔰Fahim Bot Downloading... Please wait ⏳🤖...", event.threadID, event.messageID);
 
       const path = __dirname + `/cache/fb_${event.threadID}_${Date.now()}.mp4`;
 
@@ -46,7 +46,8 @@ module.exports.handleEvent = async function ({ api, event }) {
       fs.writeFileSync(path, Buffer.from(videoBuffer, 'binary'));
 
       api.sendMessage({
-        body: `✅Successfully downloaded the video!🎀`,
+        body: `✅ Successfully Downloaded Video
+FAHIM BOT Activated ⚡🤖🎀`,
         attachment: fs.createReadStream(path)
       }, event.threadID, () => fs.unlinkSync(path), event.messageID);
 
