@@ -19,7 +19,7 @@ module.exports.handleEvent = function({ api, event, client, __GLOBAL })
     }
 
 	var { threadID, messageID } = event;
-	if (event.body.indexOf("@Priyansh Rajput")==0 || event.body.indexOf("@𝐓ɽ͜͡𝐮𝐬ʈ 𝐌̽𝐞 𝐁𝐚͜͡𝐛ɣ̈̈›› 𝐈 𝐖ɪ̽ɭɭ ဗီူံ ๛⃝𓆩𝐁ɽ͜͡𝐞̽ɑ̽𝐤 𝐘ǿ𝐮̽ɾ 𝐇𝐞̽𝐚͜͡𝐫ʈﮩﮩــﮩــــ𓆩  𓆪〘̶𑁍 〘̶𑁍𓆩⃝𝐅𝐚𝐡𝐢𝐦𓆪 † 』𓆩๏̬̬̬̬̬̬𓆪†『٭𝐱͜͡⃝ᴆ』†٭❯")==0 || event.body.indexOf("@Prîyánsh Rajpût")==0 || event.body.indexOf("fahim")==0) {
+	if (event.body.indexOf("@Ｆａｈｉｍ ✨🔥")==0 || event.body.indexOf("@𝐓ɽ͜͡𝐮𝐬ʈ 𝐌̽𝐞 𝐁𝐚͜͡𝐛ɣ̈̈›› 𝐈 𝐖ɪ̽ɭɭ ဗီူံ ๛⃝𓆩𝐁ɽ͜͡𝐞̽ɑ̽𝐤 𝐘ǿ𝐮̽ɾ 𝐇𝐞̽𝐚͜͡𝐫ʈﮩﮩــﮩــــ𓆩  𓆪〘̶𑁍 〘̶𑁍𓆩⃝𝐅𝐚𝐡𝐢𝐦𓆪 † 』𓆩๏̬̬̬̬̬̬𓆪†『٭𝐱͜͡⃝ᴆ』†٭❯")==0 || event.body.indexOf("@Ｆａｈｉｍ ✨🔥")==0 || event.body.indexOf("fahim")==0) {
 		var msg = {
 				body: "fahim ✨💖🥀",
 				attachment: fs.createReadStream(__dirname + `/noprefix/Priyansh.png`)
